@@ -1,0 +1,25 @@
+2022-04-20 00:04:28.228  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m18s246ms).
+2022-04-20 00:23:02.052  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m3s731ms).
+2022-04-20 00:39:52.289  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m50s237ms).
+2022-04-20 00:40:22.094  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s805ms), soft-evicting connections from pool.
+2022-04-20 01:27:25.565  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m3s471ms).
+2022-04-20 02:41:34.819  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m39s244ms).
+2022-04-20 04:42:28.405  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23s573ms).
+2022-04-20 05:51:40.316  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h9m11s911ms).
+2022-04-20 07:52:34.156  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h23s514ms).
+2022-04-20 08:00:16.617  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m12s452ms).
+2022-04-20 08:29:11.056  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s83ms).
+2022-04-20 09:19:51.251  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m39s810ms).
+2022-04-20 10:30:44.547  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m22s433ms).
+2022-04-20 10:47:57.036  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m42s475ms).
+2022-04-20 11:55:23.006  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h7m25s970ms).
+2022-04-20 12:15:05.416  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m12s399ms).
+2022-04-20 13:02:57.837  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m22s374ms).
+2022-04-20 15:03:50.045  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22s205ms).
+2022-04-20 16:05:40.011  WARN 11024 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h1m49s966ms).
+2022-04-20 16:15:45.009  INFO 11024 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-04-20 16:15:45.012  INFO 11024 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-04-20 16:15:45.015  INFO 11024 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2022-04-20 16:15:45.017  INFO 11024 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-20 16:15:45.051  INFO 11024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-20 16:15:45.153  INFO 11024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

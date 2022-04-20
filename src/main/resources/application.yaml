@@ -1,0 +1,63 @@
+db:
+#  username: ${username.value:postgres}
+  username: postgres
+  password: password
+  driver: PostgresDriver
+  url: postgres:5432
+  hosts: localhost,127.0.0.1
+  properties:
+    first: 123
+    second: 456
+    third.value: Third
+  pool:
+    name: zero
+    size: 12
+    timeout: 10
+  pools:
+    - name: first
+      size: 1
+      timeout: 10
+    - name: second
+      size: 5
+      timeout: 20
+
+spring.profiles.active: qa
+
+logging:
+  level:
+    root: INFO
+    com.dmdev.spring.database.pool: INFO
+    org.springframework.jdbc.core: TRACE
+#    com.dmdev.spring.database.pool.ConnectionPool: INFO
+  file:
+    name: dmdev.log
+    path: /
+
+spring:
+  mvc:
+    format:
+      date: iso
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+#  thymeleaf:
+#    prefix: /WEB-INF/jsp/
+#    suffix: .jsp
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties.hibernate:
+      batch_size: 50
+      fetch_size: 50
+      show_sql: true
+      format_sql: true
+      hbm2ddl.auto: validate
+    open-in-view: false
+
+  liquibase:
+    change-log: classpath:/db/changelog/db.changelog-master.yaml
+
+

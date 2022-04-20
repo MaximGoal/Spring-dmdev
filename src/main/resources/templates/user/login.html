@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+
+<form action="/login" method="post">
+    <label for="username"> Username:
+        <input id="username" name="username" type="text">
+    </label><br/>
+
+    <label for="password">Password:
+        <input id="password" name="password" type="text">
+    </label><br/>
+
+    <button type="submit">Login</button>
+</form>
+
+<form action="/users/registration">
+    <button type="submit">Registration</button>
+</form>
+
+</body>
+</html>
