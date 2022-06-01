@@ -16,13 +16,10 @@ public class LoginController {
         return "user/login";
     }
 
-    @PostMapping("/login")
-    public String login(@ModelAttribute UserLoginDto userLoginDto,
-                        Model model) {
-//        return "greeting/hello";
-//        return "forward:/WEB-INF/jsp/greeting/hello.html";
-        return "redirect:/hello";
-    }
-
-
+//    PostMapping on "login" provided by Spring Security
+//    @PostMapping("/login")
+//    public String login(@ModelAttribute UserLoginDto userLoginDto,
+//                        Model model) {
+//        return "redirect:/hello";
+//    }
 }

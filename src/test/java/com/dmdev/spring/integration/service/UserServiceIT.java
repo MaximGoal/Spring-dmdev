@@ -13,6 +13,7 @@ import lombok.RequiredArgsConstructor;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.mock.mockito.SpyBean;
+import org.springframework.mock.web.MockMultipartFile;
 import org.springframework.test.annotation.DirtiesContext;
 
 import java.time.LocalDate;
@@ -57,9 +58,11 @@ public class UserServiceIT extends IntegrationTestBase {
                 "test@gmail.com",
                 "test",
                 "test",
+                "test",
                 Role.ADMIN,
                 COMPANY_1,
-                LocalDate.now()
+                LocalDate.now(),
+                new MockMultipartFile("test", new byte[0])
                 );
 
         var actualResult = userService.create(userDto);
@@ -78,9 +81,11 @@ public class UserServiceIT extends IntegrationTestBase {
                 "test@gmail.com",
                 "test",
                 "test",
+                "test",
                 Role.ADMIN,
                 COMPANY_1,
-                LocalDate.now()
+                LocalDate.now(),
+                new MockMultipartFile("test", new byte[0])
                 );
 
         var actualResult = userService.update(USER_1, userDto);

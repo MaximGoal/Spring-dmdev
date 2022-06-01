@@ -1,4 +1,4 @@
-package com.dmdev.spring.http.controller.handler;
+package com.dmdev.spring.http.handler;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 import javax.servlet.http.HttpServletRequest;
 
 @Slf4j
-@ControllerAdvice
+@ControllerAdvice(basePackages = "com.dmdev.spring.http.controller")
 public class ControllerExceptionHandler /*extends ResponseEntityExceptionHandler*/ {
 
     @ExceptionHandler(Exception.class)

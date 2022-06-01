@@ -38,6 +38,8 @@ public class QUser extends EntityPathBase<User> {
 
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
+    public final StringPath image = createString("image");
+
     public final StringPath lastname = createString("lastname");
 
     //inherited
@@ -45,6 +47,8 @@ public class QUser extends EntityPathBase<User> {
 
     //inherited
     public final StringPath modifiedBy = _super.modifiedBy;
+
+    public final StringPath password = createString("password");
 
     public final EnumPath<Role> role = createEnum("role", Role.class);
 

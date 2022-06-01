@@ -60,4 +60,19 @@ spring:
   liquibase:
     change-log: classpath:/db/changelog/db.changelog-master.yaml
 
-
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 890937130992-mevm8ibkodmk0kvbb5ejc1kruhf0ug2j.apps.googleusercontent.com
+            clientSecret: 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
+            redirectUri: http://localhost:8080/login/oauth2/code/google
+            scope: openid,email,profile
+springdoc:
+  swagger-ui:
+    oauth:
+      client-id: 890937130992-mevm8ibkodmk0kvbb5ejc1kruhf0ug2j.apps.googleusercontent.com
+      clientSecret: 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
+      scope: openid,email,profile
+    oauth2-redirect-url: http://localhost:8080/swagger-ui/oauth2-redirect.html
